@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+io.eternalwind.springdocprotobufschema.config.SpringdocProtobufSchemaConfig
