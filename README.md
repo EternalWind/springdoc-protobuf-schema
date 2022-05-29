@@ -1,8 +1,11 @@
 # springdoc-protobuf-schema
 
 Fixing the protobuf message schema shown on Swagger UI. 
+
 Please note that this only fixes the schema shown after you have integrated protobuf with springdoc. 
+
 You will need [innogames's springfox-protobuf](https://github.com/innogames/springfox-protobuf) and [jackson-datatype-protobuf](https://github.com/HubSpot/jackson-datatype-protobuf) for the actual integration itself.
+
 Here is an [example project](https://github.com/EternalWind/springdoc-protobuf-example) for your reference.
 
 ## What's fixed?
