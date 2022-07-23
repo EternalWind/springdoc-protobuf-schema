@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>io.eternalwind</groupId>
 	<artifactId>springdoc-protobuf-schema</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<name>springdoc-protobuf-schema</name>
 	<description>A project to make the protobuf message schema shows up correctly in Swagger UI</description>
 	<properties>
@@ -37,6 +37,13 @@
 		<dependency>
 			<groupId>com.google.protobuf</groupId>
 			<artifactId>protobuf-java</artifactId>
+			<version>${protobuf.version}</version>
+			<optional>true</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.protobuf</groupId>
+			<artifactId>protobuf-java-util</artifactId>
 			<version>${protobuf.version}</version>
 			<optional>true</optional>
 		</dependency>
